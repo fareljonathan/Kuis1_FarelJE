@@ -3,18 +3,15 @@ html {
 }
 
 body {
-  background-color: #e8dbb3;
+  background-color: #E8DBB3;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.4rem 7%;
-  background-color: rgba(1, 1, 1, 0.8);
-  border-bottom: 1px solid #513c28;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+.navbar{
+background-color: black;
+border-radius: 0.5rem;
+width: 20%
+
+
+
+  
 }
