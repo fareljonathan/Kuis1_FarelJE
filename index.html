@@ -3,25 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kuis1</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:antiquewhite;
+            
+        }
+        main{
+            display: flex; 
+            flex-direction: row;
+            justify-content: space-between; 
+            gap: 10px;
+        }
+        .container{
+            border-radius: 20px;
+            width: auto;
+            height: auto;
+        }
+    </style>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="navbar">
-      <img src="mgp-logo-on-dark.svg" 
-      width="20%" />
-    </div>
-    <main class="content">
-        <b><h1>Latest News</h1></b>
-        <img src="news1.webp" style="border-radius: 0.5rem;" width="20%"/>
-      </main>
-      <main class="content">
-        <b><h1>Latest News</h1></b>
-        <img src="news2.webp" style="border-radius: 0.5rem;" width="20%"/>
-      </main>
-      <main class="content">
-        <b><h1>Latest News</h1></b>
-        <img src="news1.webp" style="border-radius: 0.5rem;" width="20%"/>
-      </main>
+    <header>
+        <div class="container" style="background-color: black;">
+            <img src="images/mgp-logo-on-dark.svg" alt="logo" style="width: 60%; height: auto;">
+        </div>
+    </header>
+    <main>
+        <div class="#1" style="width: 25%;">
+            <img src="images/news1.webp" alt="news1" style="width: 100%;">
+            <p>Acosta Receives penalty, loses sprint podium as bastianini podium as bastianini promoted</p>
+        </div>
+        <div class="#2" style="width: 25%;">
+            <img src="images/news2.webp" alt="news1" style="width: 100%;">
+            <p>Marc Marquez handed long lap penalty after di giannatopio crash</p>
+        </div>
+        <div class="#3" style="width: 25%;">
+            <img src="images/news3.webp" alt="news1" style="width: 100%;">
+            <p>martin steals stunning sprint win as drama takes as the reins in texas.</p>
+        </div>
+        <div class="#4" style="width: 25%;">
+            <img src="images/news4.webp" alt="news1" style="width: 100%;">
+            <p>bezzecchi and marini penalized after COTA q2 incident.</p>
+        </div>
+    </main>
+      
   </body>
 </html>
